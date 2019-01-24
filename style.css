@@ -1,0 +1,46 @@
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))url(girl.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position:center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: roboto, sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border:1px solid white;
+	float:left;
+}
+.main-nav li a:hover
+{
+	border:1px solid white;
+}
+body
+{
+	font-family:monospace;
+}
+.row
+{
+	max-width:1200px;
+	margin:auto;
+}
+
+	
